@@ -11,4 +11,5 @@ Efficient Code Structure:
 The code is organized and well-commented, making it easy to navigate and understand for future development.
 
 Technologies Used - HTML, CSS, JavaScript
+
 Development Time - 3 hours

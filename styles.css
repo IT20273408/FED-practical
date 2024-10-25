@@ -482,7 +482,23 @@ nav ul li a {
     position: relative;
     flex-grow: 1;
 }
-
+.news-item-content.item-content-1 {
+    background-color: #00bcd4;
+  
+}
+.news-item-content.item-content-1  p{
+   color: #fff
+  
+}
+.news-item-content.item-content-1  h3{
+    color: #fff
+   
+ }
+ .news-item-content .news-meta
+ {
+    color: #fff
+   
+ }
 .news-date {
     background-color: #00bcd4;
     color: white;
@@ -801,3 +817,157 @@ footer .social-icons a:hover {
  
   }
   
+
+
+
+
+
+
+  /* Mobile Responsive Styles for Devices Less Than 767px */
+@media (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px; 
+    }
+
+    /* Header */
+    header {
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    header .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column; 
+        padding: 0; 
+        margin: 0; 
+        list-style: none; 
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+    }
+
+    .header-buttons {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    /* Slider Section */
+    .slider {
+        flex-direction: column; 
+        padding: 30px; 
+        text-align: center; 
+    }
+
+    .slider-text {
+        max-width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .slider-image img {
+        max-width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+    }
+
+    /* Welcome Section */
+    .welcome-section {
+        flex-direction: column; 
+        padding: 30px; 
+    }
+
+    .welcome-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .welcome-images, .welcome-text {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .main-image {
+        width: 100%; 
+        border-radius: 10px; 
+    }
+
+    /* Services Section */
+    .services-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .service-card {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .service-image {
+        width: 100%; 
+        border-radius: 8px; 
+    }
+
+    /* Stats Section */
+    .stats-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .stat-box {
+        margin-bottom: 20px; 
+    }
+
+    /* Testimonials Section */
+    .testimonials-section {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .testimonials-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .trusted-clients, .why-choose-us {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    /* News Section */
+    .news-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    /* Footer Section */
+    footer {
+        padding: 20px 10px; 
+        text-align: center; 
+    }
+
+    footer .footer-grid {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    footer .footer-section {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    footer .social-icons {
+        justify-content: center; 
+    }
+}
